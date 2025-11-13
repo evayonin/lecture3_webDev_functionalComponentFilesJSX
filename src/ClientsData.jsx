@@ -27,7 +27,7 @@ function ClientsData () {
             name: "Eva",
             phone: "0543946405",
             totalPurcheses: 15
-        }]
+        }];
 
     return (
         <>

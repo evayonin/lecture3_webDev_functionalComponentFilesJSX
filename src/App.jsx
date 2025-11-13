@@ -3,8 +3,7 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
-import ClientData from './ClientsData'
-import Client from "./Client.jsx";
+import ClientsData from './ClientsData'
 
 function App() {
 
@@ -49,9 +48,7 @@ function App() {
           זה למה לא פשוט משתנה קבוע עבור כל קליינט כמו client1 , client2...
           אז מה שנעשה זה ליצור קונסט מערך בקליינטס דאטה ולהעתיק אליו את הקליינטס - דינאמי בגודל.
           יהיה אפשר להציג את זה באמצעות לולאה בריטרן של הקומפוננטה קליינטס-דאטה, הדאטה של כל קליינט בהתאם למיקום הקליינט במערך ואז לא צריך כל פעם להוסיף רינדור לקליינט חדש בריטרן.
-
            */}
-
     </>
   )
 }
