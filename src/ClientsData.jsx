@@ -6,27 +6,27 @@ function ClientsData () {
     //const client1 = {
     //    name: "Eva",
     //    phone: "0543946405",
-    //    totalPurcheses: 15
+    //    totalPurchases: 15
     //}
     //const client2 = {
     //    name: "Anna",
     //    phone: "0543951591",
-    //    totalPurcheses: 23
+    //    totalPurchases: 23
     //}
     // זה לא טוב כי כדי להוסיף קליינט אני גם צריכה להוסיף משתנה וגם להוסיף אותו ברינדור בריטרן!
     // פתרון:
     const allClients = [{
             name: "Eva",
             phone: "0543946405",
-            totalPurcheses: 15
+            totalPurchases: 15
         }, {
             name: "Anna",
             phone: "0543951591",
-            totalPurcheses: 23
+            totalPurchases: 23
         }, {
             name: "Eva",
             phone: "0543946405",
-            totalPurcheses: 15
+            totalPurchases: 15
         }];
 
     return (
@@ -53,7 +53,7 @@ function ClientsData () {
                                 //if im removing one object, the component will update itself everytime...
                             ))
 
-                            // בעיה - לא מראה לי את זה.
+                            // אגב אין פה ימוש בסטייט בכלל - ההכנסה של לקוחות חדשים וטיפול במידע שלהם נעשית נטו בקובץ הזה במערך הקונסט המוגדר למעלה שלא ניתן לשנות את ערכיו.
                         }
                     </>
             }

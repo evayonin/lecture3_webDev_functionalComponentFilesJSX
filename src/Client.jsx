@@ -16,22 +16,21 @@ function Client(props){
         // אבל מה הבעיה? תמיד ירנדר את מה שמופיע כאן - זה לא יתעדכן אם לא נותנים אפשרות לעדכן ולכן נוסיף props בסוגריים של הקומפוננטה
     //    name: "Eva",
     //    phone: "0543946405",
-    //    totalPurcheses: 15
+    //    totalPurchases: 15
         // אסור שיהיה לי פה מצב של 2 שדות כאשר אחד מהם מגזר מהשדה האחר!  זה למה לא היינו יכולים לדוגמה לשים פה בוליאן של אם יש יותר מ10 רכישות.
         // למה? כי אם רק אחד מהם יעודכן זה ייצור סתירה!
 
 
 return (
         <>
-            <div>
-                style={{
-                border: '1px solid blue'
-            }}
+            <div style={{
+                border: "1px solid blue"
+            }}>
 
                 {/*עבור כל רכיב שיהיה לי אני ארצה לעשות דיב בשבילו
                 <div>Name: Eva</div>
                 <div>Phone: 0543946405</div>
-                <div>Total Purcheses: 15</div>
+                <div>Total Purchases: 15</div>
                 <div>VIP Client</div>
                  אבל חייב לרוקן את כל המידע מה-jsx!
 
@@ -39,9 +38,9 @@ return (
                   אגב זה לא קשור לדאטה שבחרתי שנקבל מבחוץ - הקוד שכאן זה איך אנחנו מציירים את הדאטה לגבי הלקוח*/}
                 <div>Name: {client.name}</div>
                 <div>Phone: {client.phone}</div>
-                <div>Total Purcheses: {client.totalPurcheses}</div>
+                <div>Total Purchases: {client.totalPurchases}</div>
                 {
-                    client.totalPurcheses > 10 && // conditional rendering ביטוי טרנרי -
+                    client.totalPurchases > 10 && // conditional rendering ביטוי טרנרי -
                     <div>VIP Client</div> // רק אם התנאי מתקיים אז יציג את זה אחרת לא יעשה כלום:
                 }
             </div>
